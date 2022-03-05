@@ -1,0 +1,19 @@
+<div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-5 py-2">
+    <a href="#" class="navbar-brand">Health App</a>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a routerLink="patients" class="nav-link">Patients</a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="patientsAdd" class="nav-link">Add Patient</a>
+        </li>
+      </ul>
+    </div>
+    <app-auth-nav></app-auth-nav>
+  </nav>
+  <div class="container m-3">
+    <router-outlet></router-outlet>
+  </div>
+</div>
